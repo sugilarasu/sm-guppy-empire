@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e7f8ff;background:#031019}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:320px;background:radial-gradient(circle at 20% 0%,#073448 0,#031019 35%,#02070b 100%);min-height:100vh}
+*{box-sizing:border-box}
+.glass{background:rgba(8,30,40,.62);border:1px solid rgba(103,232,249,.13);backdrop-filter:blur(16px);box-shadow:0 12px 40px rgba(0,0,0,.25)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:999px;padding:.75rem 1.1rem;font-weight:700;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(135deg,#22d3ee,#22c55e);color:#031019}
+.btn-secondary{border:1px solid rgba(103,232,249,.25);background:rgba(10,40,52,.65)}
+.input{width:100%;border-radius:12px;border:1px solid rgba(103,232,249,.18);background:#061a24;color:#e7f8ff;padding:.75rem .9rem;outline:none}
+.input:focus{border-color:#22d3ee;box-shadow:0 0 0 3px rgba(34,211,238,.1)}
+.section{padding:5rem 1rem}
+.container{width:min(1180px,100%);margin:auto}
+.fish-bg{background:linear-gradient(180deg,rgba(2,15,23,.25),rgba(2,15,23,.92)),url("https://images.unsplash.com/photo-1520990269335-9272e0f2f2e4?auto=format&fit=crop&w=1800&q=85") center/cover}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-thumb{background:#0b6072;border-radius:99px}
